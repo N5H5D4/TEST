@@ -3,14 +3,4 @@ on:
   pull_request:
     types: [opened, synchronize, reopened]
 
-jobs:
-  test-loi:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Buoc 1 - In ra thong bao
-        run: echo "Đang chạy kiểm tra hệ thống..."
-        
-      - name: Buoc 2 - Cố tình tạo lỗi để gọi Bot
-        run: |
-          echo "!"
     
