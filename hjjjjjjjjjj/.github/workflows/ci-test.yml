@@ -1,0 +1,6 @@
+name: Kich ban Test Bot
+on: 
+  pull_request:
+    types: [opened, synchronize, reopened]
+
+    
